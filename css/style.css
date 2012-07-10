@@ -1,0 +1,94 @@
+/*
+ * General
+ */
+html *{
+	font-family: arial, sans.serif;	
+}
+body{
+	 background-image: url(../images/background.jpg);
+	 background-repeat: repeat-x;
+	 background-color: #FFFFFF;
+}
+#fondoVallas{
+	background-image: url(../images/bg.jpg);
+	background-repeat: none;
+	width: 950px;
+	height: 185px;
+	background-position: center;
+	margin: 45px auto 0px auto;
+	
+
+}
+a, a:link, a:visited ,a:hover  {
+	color: black;
+}
+a:link, a:visited { 
+	text-decoration: none;
+}
+a:hover { 
+	text-decoration: underline;
+}
+/*
+ * 
+ */
+#container{
+	margin:0px auto auto auto;
+	width:500px;
+	
+}
+#main{
+	margin:50px 0px 0px 0px;
+	text-align:center;
+
+}
+#logotipo{
+	width: 148px;
+	height: 75px;
+	background-image:url("../images/logo.png");
+	background-position:button left;
+	background-repeat:no-repeat;
+	margin-top:15px;
+}
+#socialMedia{
+	height: 64px;	
+	width: 150px;
+	display: inline-block;
+	margin: 15px auto 15px auto;
+
+}
+#twitter{
+	display:block;
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/rs1.jpg);
+	background-repeat: repeat-x;
+}
+#facebook{
+	display:block;
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/rs2.jpg);
+	background-repeat: repeat-x;
+	float:right;
+
+}
+
+#portafolio{
+	margin-top: 15px;
+	text-align: center;
+}
+#foot{
+	text-align: center;
+}
+.eslogan{
+ 
+    font-weight: bold; 
+    font-size: 20px; 
+	text-align: left;
+    
+}
+.mensaje{
+	text-align: left;
+}
+
+
